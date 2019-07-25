@@ -2,7 +2,7 @@
 Libra Blockchain 开发者文档翻译计划
 
 ## 了解Libra
-### 欢迎
+### [欢迎](./libra-developer-docs/1-1-欢迎.md) ✔️
 ### Libra协议：重要概念
 ### 交易的生命周期
 ### 技术论文
