@@ -10,7 +10,7 @@ Libra Blockchain 开发者文档翻译计划
 #### [1.4.2.Move：可编程资源的语言](./libra-developer-docs/1-4-2-Move：可编程资源的语言.md)✔️
 #### [1.4.3.Libra区块链的状态机复制](./libra-developer-docs/1-4-3-Libra区块链的状态机复制.md)✔️
 ## 2.试用Libra核心
-### [2.1.我的第一笔交易](./libra-developer-docs/2-1-我的第一笔交易.md)
+### [2.1.我的第一笔交易](./libra-developer-docs/2-1-我的第一笔交易.md)✔️
 ### 2.2.开始使用Move语言(翻译中)
 
 ## 3.社区
