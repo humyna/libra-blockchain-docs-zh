@@ -1,8 +1,8 @@
 # Libra开源
 
-原文链接：[https://developers.libra.org/docs/libra-open-source-paper](https://developers.libra.org/docs/libra-open-source-paper)
-译者：humyna
-日期：2019.9.21
+原文链接：[https://developers.libra.org/docs/libra-open-source-paper](https://developers.libra.org/docs/libra-open-source-paper)<br />
+译者：humyna<br />
+日期：2019.9.21<br />
 版权及转载声明：本文采用[知识共享署名-非商业性使用-禁止演绎 4.0 国际许可协议](https://creativecommons.org/licenses/by-nc-nd/4.0/)进行许可。
 
 [Libra 区块链](https://developers.libra.org/docs/the-libra-%E5%8C%BA%E5%9D%97%E9%93%BE-paper) 由开源软件驱动。Libra协议(区块链底层技术)的第一个实现是Libra Core, 它也是由开源社区建立的[Libra 协会](https://libra.org/en-us/association-council-principles) 管理的[开源项目](https://github.com/libra/libra)。 以这种方式开发 Libra 区块链底层技术可确保每个人都可以访问区块链，并且技术决策是公平和透明的。

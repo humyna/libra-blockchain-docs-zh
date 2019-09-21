@@ -1,8 +1,8 @@
 # Move概述
 
-原文链接：[https://developers.libra.org/docs/move-overview](https://developers.libra.org/docs/move-overview)
-译者：humyna
-日期：2019.08.02
+原文链接：[https://developers.libra.org/docs/move-overview](https://developers.libra.org/docs/move-overview)<br />
+译者：humyna<br />
+日期：2019.08.02<br />
 版权及转载声明：本文采用[知识共享署名-非商业性使用-禁止演绎 4.0 国际许可协议](https://creativecommons.org/licenses/by-nc-nd/4.0/)进行许可。
 
 Move是一种新的编程语言，旨在为 Libra 区块链提供安全可编程的基础。 Libra区块链中的帐户是一个容器，它包含任意数量的Move资源和Move模块。 提交到 Libra 区块链的每一笔交易都是用 Move 语言编写的交易脚本来实现其逻辑。 交易脚本可以调用模块声明的过程来更新区块链的全局状态。
