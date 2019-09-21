@@ -14,7 +14,7 @@ Libra Blockchain 开发者文档翻译计划
 ### [2.2.开始使用Move语言](./libra-developer-docs/2-2-Move概述.md)✔️
 
 ## 3.社区
-### [Libra开源](./libra-developer-docs/3-1-Libra开源.md)✔️
+### [3.1.Libra开源](./libra-developer-docs/3-1-Libra开源.md)✔️
 ### 贡献指南
 ### 编码指南
 ### 报告漏洞
