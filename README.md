@@ -22,7 +22,7 @@ Libra Blockchain 开发者文档翻译计划
 ##  4.Libra代码库
 ### [4.1.Libra Core概述](./libra-developer-docs/4-1-Libra-Core概述.md)✔️
 ### 4.2.说明文档
-#### 4.2.1.接入控制
+#### [4.2.1.接入控制](./libra-developer-docs/4-2-1-准入控制.md)✔️
 #### 4.2.2.字节码验证器
 #### 4.2.3.共识算法
 #### 4.2.4.加密组件
