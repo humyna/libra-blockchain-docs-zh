@@ -1,5 +1,6 @@
 # libra-blockchain-docs-zh
-Libra Blockchain 开发者文档翻译计划
+Libra Blockchain 开发者文档翻译计划<br/>
+官方文档仓库地址：https://github.com/libra/website
 
 ## 1.了解Libra
 ### [1.1.欢迎](./libra-developer-docs/1-1-欢迎.md) ✔️
@@ -25,7 +26,7 @@ Libra Blockchain 开发者文档翻译计划
 #### [4.2.1.接入控制](./libra-developer-docs/4-2-1-准入控制.md)✔️
 #### [4.2.2.字节码验证器](./libra-developer-docs/4-2-2-字节码验证器.md)✔️
 #### [4.2.3.共识](./libra-developer-docs/4-2-3-共识.md)✔️
-#### 4.2.4.加密组件
+#### [4.2.4.加密组件](./libra-developer-docs/4-2-4-加密组件.md)✔️
 #### 4.2.5.执行器
 #### 4.2.6.内存池
 #### 4.2.7.Move IR编译器
