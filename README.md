@@ -1,6 +1,10 @@
 # libra-blockchain-docs-zh
 Libra Blockchain 开发者文档翻译计划<br/>
-官方文档仓库地址：https://github.com/libra/website
+官方文档仓库地址：https://github.com/libra/website<br/>
+
+## 版权及转载声明
+译者：humyna<br/>
+所有译文均采用[知识共享署名-非商业性使用-禁止演绎 4.0 国际许可协议](https://creativecommons.org/licenses/by-nc-nd/4.0/)进行许可。<br/>
 
 ## 1.了解Libra
 ### [1.1.欢迎](./libra-developer-docs/1-1-欢迎.md) ✔️
