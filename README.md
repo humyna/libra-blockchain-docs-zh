@@ -34,7 +34,7 @@ Libra Blockchain 开发者文档翻译计划<br/>
 #### [4.2.5.执行组件](./libra-developer-docs/4-2-5-执行组件.md)✔️
 #### [4.2.6.内存池](./libra-developer-docs/4-2-6-内存池.md)✔️
 #### [4.2.7.Move IR编译器](./libra-developer-docs/4-2-7-Move IR编译器.md)✔️
-#### 4.2.8.Move语言
+#### [4.2.8.Move语言](./libra-developer-docs/4-2-8-Move语言.md)✔️
 #### 4.2.9.网络
 #### 4.2.10.存储
 #### 4.2.11.虚拟机
