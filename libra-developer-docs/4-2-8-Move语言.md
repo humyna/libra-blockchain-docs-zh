@@ -2,7 +2,7 @@
 
 原文链接：[https://developers.libra.org/docs/crates/move-language](https://developers.libra.org/docs/crates/move-language)<br/>
 译者：humyna<br/>
-日期：2019.09.25<br/>
+日期：2019.09.26<br/>
 版权及转载声明：本文采用[知识共享署名-非商业性使用-禁止演绎 4.0 国际许可协议](https://creativecommons.org/licenses/by-nc-nd/4.0/)进行许可。<br/>
 
 Move是一种新的编程语言，为Libra区块链提供一个安全可编程的基础。
