@@ -37,7 +37,7 @@ Libra Blockchain 开发者文档翻译计划<br/>
 #### [4.2.8.Move语言](./libra-developer-docs/4-2-8-Move语言.md)✔️
 #### [4.2.9.网络组件](./libra-developer-docs/4-2-9-网络组件.md)✔️
 #### [4.2.10.存储](./libra-developer-docs/4-2-10-存储.md)✔️
-#### 4.2.11.虚拟机
+#### [4.2.11.虚拟机](./libra-developer-docs/4-2-11-虚拟机.md)✔️
 
 ## 5.参考
 ### 5.1.Libra命令行工具
