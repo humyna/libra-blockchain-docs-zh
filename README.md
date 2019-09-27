@@ -40,5 +40,5 @@ Libra Blockchain 开发者文档翻译计划<br/>
 #### [4.2.11.虚拟机](./libra-developer-docs/4-2-11-虚拟机.md)✔️
 
 ## 5.参考
-### 5.1.Libra命令行工具
+### [5.1.Libra命令行工具](./libra-developer-docs/5-1-Libra命令行工具.md)✔️
 ### 5.2.术语
