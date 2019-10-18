@@ -6,7 +6,7 @@ Libra区块链是一个基于Libra协议，加密认证的分布式数据库。�
 <br />Libra区块链由多个验证节点组成的分布式网络来维护，也可以称为验证器。验证节点通过遵守共识协议来保证区块链中的交易顺序达成一致。<br />
 <br />Libra 测试网络（testnet）是Libra区块链软件(Libra Core)的早期原型的演示。<br />
 
-<a name="5wjlJ"></a>
+
 ## 交易和状态
 Libra协议的核心是两个基本概念 — 交易和状态。 在任意时刻，区块链都有一个“状态”。状态（或称为账本状态）表示链上数据的当前快照。 执行交易后会改变区块链的状态。<br />
 <br />![image.png](./pics/1-2-1-transactions-change-state.jpeg)<br />图1.1交易改变状态<br />
@@ -20,7 +20,7 @@ Libra协议的核心是两个基本概念 — 交易和状态。 在任意时刻
 - **S** 是区块链的第N个状态。 S是应用函数F处理T与S 后的结果。
 
 Libra协议使用 Move 语言 来实现函数F的确定性执行。
-<a name="FGISf"></a>
+
 ### 交易
 Libra 区块链的客户端通过提交交易来请求更新账本的状态，在区块链上一个签名交易包含：<br />
 
@@ -38,17 +38,17 @@ Libra 区块链的客户端通过提交交易来请求更新账本的状态，�
 
 
 <br />交易脚本是一个任意的程序，用于对交易逻辑进行编码，并与Libra区块链中发布的资源进行交互。
-<a name="opTx6"></a>
+
 ### 账本状态
 账本或者称为Libra区块链的全局状态，它是由区块链中所有账户状态组成的。在执行交易时，每个验证节点必须知道区块链中的分布式数据库的最新版本的全局状态。 参考[版本化数据库](#uoFGD)。
-<a name="nRRe1"></a>
+
 ## 版本数据库
 Libra区块链中的所有数据都保存在单个版本化分布式数据库中。版本号是一个无符号的 64 位整数，与系统已执行的交易数相对应。<br />
 <br />版本数据库（versioned database）允许验证器:<br />
 
 - 在最新版本状态下执行交易。
 - 响应客户端当前和以前版本的账本的历史记录数据查询译者:humyna
-<a name="FdeAt"></a>
+
 ## 账户
 Libra账户包含 Move 模块和Move 资源。它通过账户地址来标识。这本质上意味着每个账户的状态都包含代码和数据：<br />
 
@@ -58,7 +58,7 @@ Libra账户包含 Move 模块和Move 资源。它通过账户地址来标识。�
 账户可以包含任意数量的Move资源和Move模块。<br />**账户地址**<br />Libra账户的地址是256位的值。用户使用数字签名来声明地址。账户的地址是用户公钥的加密Hash。用户（或者托管账户代表用户）必须通过账户相关的私钥签名才能发出交易。<br />
 <br />Libra用户申请的地址数量是没有限制的，不过要想申请一个地址需要从一个有足够LIbra币的账户支付一笔创建账号的费用。
 
-<a name="36xJi"></a>
+
 ## 证明
 Libra区块链的所有数据都存储在单一版本的分布式数据库中。存储是用于记录商定的区块交易及执行结果。区块链用一个不断增长的交易集的Merkle树来表示。区块链上执行的每个交易，都会有"叶子"被附加到Merkle树上。<br />
 
@@ -66,7 +66,7 @@ Libra区块链的所有数据都存储在单一版本的分布式数据库中。
 - 区块链上存储的每个操作都可以进行加密验证,因此,由此得出的证明也证明没有任何数据被遗漏。例如,如果客户端查询某个帐户最新的 _n_ 个交易，证明会验证查询响应中未遗漏 任何交易。
 
 在区块链中,客户端不需要信任从中接收数据的实体。客户端可以查询帐户的余额，询问一笔特定交易是否被处理了，等等。与其他的Merkle 树一样, 账本历史可以对一个特定的交易提供 O(log n)时间复杂度的证明，_n_ 是已处理的总交易量。
-<a name="dQqxS"></a>
+
 ## 验证器节点(验证器)
 Libra 区块链的客户创建交易并将其提交到验证器节点。验证器节点运行共识协议(与其他验证器节点一起)，执行交易，并将交易和执行结果存储到区块链中。验证器节点决定哪些交易以及这些交易按照什么顺序被添加到区块链中。译者:humyna<br />
 <br />![image.png](./pics/1-2-2-logical-components-of-a-validator.jpeg)<br />图 1.2 验证器的逻辑组件<br />
@@ -102,14 +102,14 @@ Libra 区块链的客户创建交易并将其提交到验证器节点。验证�
 
 
 <br />**存储 Storage**<br />存储用于保存已经商定过的交易块及其执行结果。<br />
-<br />有关每个验证器组件与其他组件的交互信息，参考[交易生命周期](https://developers.libra.org/docs/life-of-a-transaction)
-<a name="3h5ol"></a>
+<br />有关每个验证器组件与其他组件的交互信息，参考[交易生命周期](https://github.com/humyna/libra-blockchain-docs-zh/blob/master/libra-developer-docs/1-3-%E4%BA%A4%E6%98%93%E7%9A%84%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F.md)
+
 ## 参考
 
-- [欢迎页](https://www.yuque.com/dkkomb/zn2x7l/btktyh)
-- [我的第一笔交易 ](https://developers.libra.org/docs/my-first-transaction)— 指导你使用Libra CLI客户端在Libra区块链上执行你的第一笔交易。
-- [开始使用Move ](https://developers.libra.org/docs/move-overview)— 介绍新区块链编程语言Move。
-- [交易的生命周期](https://developers.libra.org/docs/life-of-a-transaction) — 介绍交易被提交和执行的底层实现
-- [Libra Core 概述](https://developers.libra.org/docs/libra-core-overview) — Libra Core 组件的概念和实现细节。
-- [CLI 指南](https://developers.libra.org/docs/reference/libra-cli) — 列出了Libra CLI客户端的命令及其用法。
-- [Libra 词汇表](https://developers.libra.org/docs/reference/glossary) — 提供了一份Libra技术的快速参考。
+- [欢迎页](https://github.com/humyna/libra-blockchain-docs-zh/blob/master/libra-developer-docs/1-1-%E6%AC%A2%E8%BF%8E.md)
+- [我的第一笔交易 ](https://github.com/humyna/libra-blockchain-docs-zh/blob/master/libra-developer-docs/2-1-%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AC%94%E4%BA%A4%E6%98%93.md)— 指导你使用Libra CLI客户端在Libra区块链上执行你的第一笔交易。
+- [开始使用Move ](https://github.com/humyna/libra-blockchain-docs-zh/blob/master/libra-developer-docs/2-2-Move%E6%A6%82%E8%BF%B0.md)— 介绍新区块链编程语言Move。
+- [交易的生命周期](https://github.com/humyna/libra-blockchain-docs-zh/blob/master/libra-developer-docs/1-3-%E4%BA%A4%E6%98%93%E7%9A%84%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F.md) — 介绍交易被提交和执行的底层实现
+- [Libra Core 概述](https://github.com/humyna/libra-blockchain-docs-zh/blob/master/libra-developer-docs/4-1-Libra-Core%E6%A6%82%E8%BF%B0.md) — Libra Core 组件的概念和实现细节。
+- [CLI 指南](https://github.com/humyna/libra-blockchain-docs-zh/blob/master/libra-developer-docs/5-1-Libra%E5%91%BD%E4%BB%A4%E8%A1%8C%E5%B7%A5%E5%85%B7.md) — 列出了Libra CLI客户端的命令及其用法。
+- [Libra 词汇表](https://github.com/humyna/libra-blockchain-docs-zh/blob/master/libra-developer-docs/5-2-词汇表.md) — 提供了一份Libra技术的快速参考。

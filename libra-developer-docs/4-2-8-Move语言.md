@@ -12,13 +12,13 @@ Move是一种新的编程语言，为Libra区块链提供一个安全可编程�
 Move 语言目录由五个部分组成:
 
 
-- [虚拟机](https://developers.libra.org/docs/crates/vm/) (VM) —  包含字节码格式、字节码解释器和执行交易块的基础设施。该目录还包含生成创世块的基础设施。
+- [虚拟机](https://github.com/humyna/libra-blockchain-docs-zh/blob/master/libra-developer-docs/4-2-11-%E8%99%9A%E6%8B%9F%E6%9C%BA.md) (VM) —  包含字节码格式、字节码解释器和执行交易块的基础设施。该目录还包含生成创世块的基础设施。
 
 
-- [字节码验证器](https://developers.libra.org/docs/crates/bytecode_verifier/) —  包含一个用于拒绝无效Move字节码的静态分析工具。在执行之前，虚拟机会对遇到的任何新Move代码运行字节码验器。编译器在其输出上运行字节码验证器，并向程序员提示错误信息。
+- [字节码验证器](https://github.com/humyna/libra-blockchain-docs-zh/blob/master/libra-developer-docs/4-2-2-%E5%AD%97%E8%8A%82%E7%A0%81%E9%AA%8C%E8%AF%81%E5%99%A8.md) —  包含一个用于拒绝无效Move字节码的静态分析工具。在执行之前，虚拟机会对遇到的任何新Move代码运行字节码验器。编译器在其输出上运行字节码验证器，并向程序员提示错误信息。
 
 
-- [编译器](https://developers.libra.org/docs/crates/compiler/https://developers.libra.org/docs/crates/compiler/) — 包含Move IR编译器，它将人类可读的程序文本编译成Move字节码。_警告：IR编译器是一个测试工具。__它会生成被Move字节码验证器拒绝的无效字节码。IR语法工作仍在进行中，或将经历重大的变化。_
+- [编译器](https://developers.libra.org/docs/crates/compiler/) — 包含Move IR编译器，它将人类可读的程序文本编译成Move字节码。_警告：IR编译器是一个测试工具。__它会生成被Move字节码验证器拒绝的无效字节码。IR语法工作仍在进行中，或将经历重大的变化。_
 
 
 - [标准库](https://developers.libra.org/docs/crates/stdlib/) —  包含核心系统模块(如 `LibraAccount` 和 `LibraCoin` )的Move IR代码。
@@ -28,7 +28,7 @@ Move 语言目录由五个部分组成:
 
 ## Move语言如何融入Libra Core?
 
-Libra Core组件通过VM与语言组件交互。 具体来说， [准入控制](https://developers.libra.org/docs/admission_control/) 组件使用有限的 VM 虚拟机功能的只读  [子集](https://developers.libra.org/docs/vm_validator/) 在无效的交易被允许进入内存池及共识之前丢弃他们。 [执行](https://developers.libra.org/docs/execution/) 模块使用VM执行一个交易块。
+Libra Core组件通过VM与语言组件交互。 具体来说， [准入控制](https://github.com/humyna/libra-blockchain-docs-zh/blob/master/libra-developer-docs/4-2-1-%E5%87%86%E5%85%A5%E6%8E%A7%E5%88%B6.md) 组件使用有限的 VM 虚拟机功能的只读  [子集](https://developers.libra.org/docs/vm_validator/) 在无效的交易被允许进入内存池及共识之前丢弃他们。 [执行](https://developers.libra.org/docs/execution/) 模块使用VM执行一个交易块。
 
 ### 探索 Move IR
 
