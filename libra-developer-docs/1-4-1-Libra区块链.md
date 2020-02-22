@@ -11,4 +11,4 @@ Libra协议允许来自不同机构的一组副本（称为验证者）共同维
 我们使用Move语言定义区块链的核心机制，例如货币和验证者成员。这些核心机制能够创建一个独特的治理机制，该机制早期建立在稳定、有信誉的机构基础之上，但随着时间的推移过渡到一个完全开放的系统。<br />[]()
 <a name="f26ef914"></a>
 ### 下载
-[![](./pics/1-4-1-1-the-libra-blockchain-paper.png)](https://developers.libra.org/docs/assets/papers/the-libra-blockchain.pdf)
+[![](./pics/1-4-1-1-the-libra-blockchain-paper.png)](https://developers.libra.org/docs/assets/papers/the-libra-blockchain/2019-09-26.pdf)

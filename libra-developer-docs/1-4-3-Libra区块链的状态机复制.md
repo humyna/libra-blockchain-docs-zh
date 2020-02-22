@@ -14,4 +14,4 @@ LBFT基于一个新协议HotStuff，HotStuff协议利用了拜占庭容错（BFT
 LBFT可以通过在序列中嵌入配置更改命令来重新配置自身。一个新的配置时期可能会改变从验证程序集到协议本身的所有内容。
 
 ### 下载
-[![](./pics/1-4-3-1-state-machine-replication.png)](https://developers.libra.org/docs/assets/papers/libra-consensus-state-machine-replication-in-the-libra-blockchain.pdf)
+[![](./pics/1-4-3-1-state-machine-replication.png)](https://developers.libra.org/docs/assets/papers/libra-consensus-state-machine-replication-in-the-libra-blockchain/2019-11-08.pdf)

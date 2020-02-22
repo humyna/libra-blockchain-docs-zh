@@ -8,4 +8,4 @@
 
 <a name="6jUCX"></a>
 ### 下载
-[![](./pics/1-4-2-1-move-programming-language.png)](https://developers.libra.org/docs/assets/papers/libra-move-a-language-with-programmable-resources.pdf)
+[![](./pics/1-4-2-1-move-programming-language.png)](https://developers.libra.org/docs/assets/papers/libra-move-a-language-with-programmable-resources/2019-09-26.pdf)
