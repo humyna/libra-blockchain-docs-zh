@@ -1,6 +1,10 @@
 # Libra区块链的状态机复制
 
-原文链接：[https://developers.libra.org/docs/state-machine-replication-paper](https://developers.libra.org/docs/state-machine-replication-paper)<br />译者：humyna<br />日期：2019.07.22<br />版权及转载声明：本作品采用[知识共享署名-非商业性使用-禁止演绎 4.0 国际许可协议](https://creativecommons.org/licenses/by-nc-nd/4.0/)进行许可。
+原文链接：[https://developers.libra.org/docs/state-machine-replication-paper](https://developers.libra.org/docs/state-machine-replication-paper)<br />
+译者：humyna<br />
+日期：2019.07.22<br />
+更新日期:2020.02.22<br />
+版权及转载声明：本作品采用[知识共享署名-非商业性使用-禁止演绎 4.0 国际许可协议](https://creativecommons.org/licenses/by-nc-nd/4.0/)进行许可。
 
 ## 摘要
 本报告描述了LibraBFT的算法核心LBFT，并讨论了其生产的下一步工作。共识协议负责对交易进行排序并完成它。LBFT在一组动态可重新配置的验证器之间分散信任，并保持了网络不同步时的安全，即使在任何特定的配置时期，参与者的阈值也是拜占庭式的。
